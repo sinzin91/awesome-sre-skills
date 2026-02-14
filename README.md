@@ -19,7 +19,7 @@
   <a href="#-getting-started">Getting Started</a> •
   <a href="#compatibility">Compatibility</a> •
   <a href="#skills">Skills</a> •
-  <a href="#-skills-vs-mcp-for-observability">Skills vs MCP</a> •
+  <a href="#-skills-vs-mcp-for-sre">Skills vs MCP</a> •
   <a href="#contributing">Contributing</a>
 </p>
 
@@ -29,7 +29,7 @@
 
 Large skill registries like [ClawHub](https://clawhub.com/) (5,700+ skills) and [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (3,000+) are great for discovery but include spam, duplicates, and unverified entries. This list takes the opposite approach:
 
-- **Verified skills** focused exclusively on observability
+- **Verified skills** focused on SRE, observability, and incident response
 - **Cross-platform** — Claude Code, OpenClaw, and SkillMD skills included
 - **Every entry reviewed** for working links, real skill files, and active maintenance
 
@@ -180,7 +180,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ---
 
-## 💡 Skills vs MCP for Observability
+## 💡 Skills vs MCP for SRE
 
 | Aspect | Skills | MCP Servers |
 |--------|--------|-------------|
@@ -224,9 +224,9 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 ## ❓ FAQ
 
 <details>
-<summary><strong>How do observability skills differ from MCP servers?</strong></summary>
+<summary><strong>How do SRE skills differ from MCP servers?</strong></summary>
 
-Skills teach Claude *how* to do something (workflows, analysis patterns). MCPs give Claude *access* to something (APIs, databases). For observability: use skills for incident runbooks and analysis workflows; use MCPs to query your actual monitoring data.
+Skills teach Claude *how* to do something (workflows, analysis patterns). MCPs give Claude *access* to something (APIs, databases). For SRE: use skills for incident runbooks and analysis workflows; use MCPs to query your actual monitoring data.
 
 </details>
 
@@ -238,7 +238,7 @@ Yes! Most skills are stack-agnostic — they teach patterns and workflows. Some 
 </details>
 
 <details>
-<summary><strong>How do I create a custom observability skill?</strong></summary>
+<summary><strong>How do I create a custom SRE skill?</strong></summary>
 
 1. Create a folder with a `SKILL.md` (OpenClaw) or `CLAUDE.md` (Claude Code)
 2. Write instructions for your workflow (e.g., "How to triage a P1 incident")
@@ -289,7 +289,7 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 ### Criteria
 
 - Must be an agent skill (CLAUDE.md, SKILL.md, or SkillMD format) — **NOT** MCP servers
-- Must relate to observability, monitoring, or incident response
+- Must relate to SRE, observability, monitoring, or incident response
 - Should have documentation and be actively maintained
 
 > **Note:** MCP servers belong in [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers)

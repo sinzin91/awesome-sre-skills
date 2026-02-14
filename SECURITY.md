@@ -8,7 +8,7 @@ For urgent issues, you can also open a regular issue with the `[SECURITY]` prefi
 
 ## Scope
 
-This is a curated list of links to observability resources, not executable software. Security concerns for this project include:
+This is a curated list of links to SRE and observability resources, not executable software. Security concerns for this project include:
 
 - **Malicious links** — URLs that lead to malware, phishing, or other harmful content
 - **Hijacked domains** — Previously legitimate resources whose domains have been taken over
