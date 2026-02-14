@@ -1,10 +1,10 @@
 # Contributing to Awesome SRE Skills
 
-Thank you for your interest in contributing! This list aims to catalog useful AI agent skills for observability, monitoring, and incident response.
+Thank you for your interest in contributing! This list aims to catalog useful AI agent skills for SRE, observability, monitoring, and incident response.
 
 ## Inclusion Criteria
 
-### What Qualifies as an "Observability Skill"?
+### What Qualifies as an "SRE Skill"?
 
 To be included in this list, a skill must meet **both** of these requirements:
 
@@ -13,7 +13,7 @@ To be included in this list, a skill must meet **both** of these requirements:
    - `CLAUDE.md` or `commands/*.md` (Claude Code)
    - SkillMD cross-platform packages
 
-2. **Domain** — Must relate to observability or reliability engineering:
+2. **Domain** — Must relate to SRE, observability, or reliability engineering:
    - **Monitoring** — Metrics queries, dashboards, alerting
    - **Logging** — Log search, analysis, aggregation
    - **Tracing** — Distributed tracing, span analysis
@@ -33,7 +33,7 @@ To be included in this list, a skill must meet **both** of these requirements:
 ### What Doesn't Qualify
 
 - ❌ **MCP servers** — These belong in [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers), not here
-- ❌ General-purpose skills not specific to observability
+- ❌ General-purpose skills not specific to SRE/observability
 - ❌ Abandoned projects (no commits in 6+ months)
 - ❌ Broken or non-functional skills
 - ❌ Paid tools without disclosure
@@ -76,7 +76,7 @@ Each table row must include these fields:
 Before submitting, verify:
 
 - [ ] Skill is in `SKILL.md`, `CLAUDE.md`, or SkillMD format
-- [ ] Topic relates to observability/monitoring/incident response
+- [ ] Topic relates to SRE/observability/monitoring/incident response
 - [ ] Repo has commits within the last 6 months
 - [ ] Documentation clearly explains how to use it
 - [ ] Link works and skill is accessible
