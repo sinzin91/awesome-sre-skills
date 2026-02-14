@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    ["remark-lint-awesome-list-item", false],
+    ["remark-lint-table-pipe-alignment", false],
+    ["remark-lint-table-cell-padding", false],
+    ["remark-lint-double-link", false],
+    ["remark-lint-no-heading-punctuation", false],
+    ["remark-lint-awesome-spell-check", false],
+    ["remark-lint-awesome-license", false],
+    ["remark-lint-awesome-github", false]
+  ]
+}

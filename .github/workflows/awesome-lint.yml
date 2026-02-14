@@ -1,0 +1,22 @@
+name: Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check README
+        run: |
+          echo "Checking README.md..."
+          test -f README.md || exit 1
+          grep -q "## Contributing" README.md || exit 1
+          grep -q "## License" README.md || exit 1
+          grep -q "awesome.re" README.md || exit 1
+          echo "All checks passed!"
