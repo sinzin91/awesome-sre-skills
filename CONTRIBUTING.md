@@ -1,4 +1,4 @@
-# Contributing to Awesome Observability Skills
+# Contributing to Awesome SRE Skills
 
 Thank you for your interest in contributing! This list aims to catalog useful AI agent skills for observability, monitoring, and incident response.
 

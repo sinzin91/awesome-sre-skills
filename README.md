@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Awesome Observability Skills" width="600">
+  <img src="assets/banner.png" alt="Awesome SRE Skills" width="600">
 </p>
 
 <p align="center">
-  <strong>A hand-curated list of AI agent skills for observability, monitoring, and incident response.</strong>
+  <strong>A hand-curated list of AI agent skills for SRE, observability, monitoring, and incident response.</strong>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 </p>
 
-# Awesome Observability Skills
+# Awesome SRE Skills
 
 <p align="center">
   <a href="#-getting-started">Getting Started</a> •
