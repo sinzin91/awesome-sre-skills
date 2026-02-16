@@ -1,14 +1,12 @@
 # Awesome SRE Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A hand-curated list of AI agent skills for SRE, observability, monitoring, and incident response.
+> A curated list of AI agent skills for SRE, observability, monitoring, and incident response.
 
 ---
 
 ## Why This List
 
-Large skill registries like [ClawHub](https://clawhub.com/) (5,700+ skills) and awesome-openclaw-skills (3,000+) are great for discovery but include spam, duplicates, and unverified entries. This list takes the opposite approach:
-
-Every skill is **verified** for SRE, observability, and incident response. The list is **cross-platform** (Claude Code, OpenClaw, and SkillMD) and **every entry is reviewed** for working links, real skill files, and active maintenance.
+Large skill registries like [ClawHub](https://clawhub.com/) (5,700+ skills) and awesome-openclaw-skills (3,000+) are great for discovery but can be noisy. This list focuses on SRE, observability, and incident response skills across platforms (Claude Code, OpenClaw, and SkillMD).
 
 > Missing a skill? [Open an issue](../../issues/new) or submit a PR.
 
@@ -55,7 +53,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 ## Skills
 
 > [!Warning]
-> **Security Notice:** Skills execute code on your machine. We reviewed each skill at the time of addition, but source code can change. **Always** audit the `SKILL.md` or `CLAUDE.md` and any scripts before installing. For ClawHub skills, check the VirusTotal report on the skill's ClawHub page. We also recommend using tools like Bitdefender AI Skills Checker (see Security Research below) to verify safety.
+> **Security Notice:** Skills execute code on your machine. Source code can change at any time. **Always** audit the `SKILL.md` or `CLAUDE.md` and any scripts before installing. For ClawHub skills, check the VirusTotal report on the skill's ClawHub page. We also recommend using tools like Bitdefender AI Skills Checker (see Security Research below) to verify safety.
 
 ### APM & Tracing
 
@@ -270,5 +268,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 ---
 
 <p align="center">
-  <em>Last verified: 2026-02-13</em>
+  <em>Last updated: 2026-02-13</em>
 </p>
