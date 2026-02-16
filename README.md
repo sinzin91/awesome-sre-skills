@@ -6,7 +6,7 @@
 
 ## Why This List
 
-Large skill registries like [ClawHub](https://clawhub.com/) (5,700+ skills) and [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) (3,000+) are great for discovery but include spam, duplicates, and unverified entries. This list takes the opposite approach:
+Large skill registries like [ClawHub](https://clawhub.com/) (5,700+ skills) and awesome-openclaw-skills (3,000+) are great for discovery but include spam, duplicates, and unverified entries. This list takes the opposite approach:
 
 Every skill is **verified** for SRE, observability, and incident response. The list is **cross-platform** (Claude Code, OpenClaw, and SkillMD) and **every entry is reviewed** for working links, real skill files, and active maintenance.
 
@@ -55,7 +55,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 ## Skills
 
 > [!Warning]
-> **Security Notice:** Skills execute code on your machine. We reviewed each skill at the time of addition, but source code can change. **Always** audit the `SKILL.md` or `CLAUDE.md` and any scripts before installing. For ClawHub skills, check the VirusTotal report on the skill's ClawHub page. We also recommend using tools like [Bitdefender AI Skills Checker](https://www.bitdefender.com/en-us/consumer/ai-skills-checker) to verify safety.
+> **Security Notice:** Skills execute code on your machine. We reviewed each skill at the time of addition, but source code can change. **Always** audit the `SKILL.md` or `CLAUDE.md` and any scripts before installing. For ClawHub skills, check the VirusTotal report on the skill's ClawHub page. We also recommend using tools like Bitdefender AI Skills Checker (see Security Research below) to verify safety.
 
 ### APM & Tracing
 
@@ -146,14 +146,14 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ## Skill Registries
 
-| Registry                                                                        | Skills   | Notes                              |
-| ------------------------------------------------------------------------------- | -------- | ---------------------------------- |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐ | 1000+    | ComposioHQ curated list            |
-| awesome-openclaw-skills ⭐⭐                                                      | 3000+    | VoltAgent curated list             |
-| [SkillsMP](https://skillsmp.com)                                                | 160,000+ | Cross-platform marketplace         |
-| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                               | varies   | OpenClaw official registry         |
-| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                 | ~50      | Official reference implementations |
-| [agent-skills.md](https://agent-skills.md/)                                     | varies   | Skill discovery site               |
+| Registry                                                                            | Skills   | Notes                              |
+| ----------------------------------------------------------------------------------- | -------- | ---------------------------------- |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐     | 1000+    | ComposioHQ curated list            |
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐  | 3000+    | VoltAgent curated list             |
+| [SkillsMP](https://skillsmp.com)                                                    | 160,000+ | Cross-platform marketplace         |
+| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                                   | varies   | OpenClaw official registry         |
+| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                     | ~50      | Official reference implementations |
+| [agent-skills.md](https://agent-skills.md/)                                         | varies   | Skill discovery site               |
 
 ---
 
@@ -173,7 +173,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 **Use both:** Skills can orchestrate MCP calls. For example, an "incident investigation" skill might use a Datadog MCP to fetch relevant logs, or call APIs directly via shell scripts.
 
-> Looking for MCP servers? See [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers)
+> Looking for MCP servers? See awesome-devops-mcp-servers in Related Lists below
 
 ---
 
@@ -181,7 +181,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ### Related Lists
 
-- awesome-devops-mcp-servers - DevOps MCP servers with observability tools
+- [awesome-devops-mcp-servers](https://github.com/rohitg00/awesome-devops-mcp-servers) - DevOps MCP servers with observability tools.
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐⭐ - General MCP servers
 - [awesome-observability](https://github.com/adriannovegil/awesome-observability) ⭐⭐ - General observability tools
 - [awesome-sre](https://github.com/dastergon/awesome-sre) ⭐⭐ - Site Reliability Engineering resources
@@ -193,7 +193,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ### Security Research
 
-- Bitdefender AI Skills Checker - Verify OpenClaw skill safety
+- [Bitdefender AI Skills Checker](https://www.bitdefender.com/en-us/consumer/ai-skills-checker) - Verify OpenClaw skill safety.
 - [1Password: OpenClaw Attack Surface](https://1password.com/blog/from-magic-to-malware-how-openclaws-agent-skills-become-an-attack-surface) - Security research on malicious skills.
 
 ---
@@ -263,7 +263,7 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 - Must relate to SRE, observability, monitoring, or incident response
 - Should have documentation and be actively maintained
 
-> **Note:** MCP servers belong in awesome-devops-mcp-servers
+> **Note:** MCP servers belong in the awesome-devops-mcp-servers list (see Related Lists)
 
 ---
 
