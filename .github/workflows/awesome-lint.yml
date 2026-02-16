@@ -12,11 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Check README
-        run: |
-          echo "Checking README.md..."
-          test -f README.md || exit 1
-          grep -q "## Contributing" README.md || exit 1
-          grep -q "## License" README.md || exit 1
-          grep -q "awesome.re" README.md || exit 1
-          echo "All checks passed!"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run awesome-lint
+        run: npx awesome-lint
