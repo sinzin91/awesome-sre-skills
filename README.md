@@ -1,6 +1,26 @@
 # Awesome SRE Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of AI agent skills for SRE, observability, monitoring, and incident response.
+<p align="center">
+  <img src="assets/banner.png" alt="Awesome SRE Skills" width="600">
+</p>
+
+<p align="center">
+  <strong>A hand-curated list of AI agent skills for SRE, observability, monitoring, and incident response.</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/skills-30-blue?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/updated-Feb%202026-green.svg" alt="Last Updated">
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+</p>
+
+<p align="center">
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#compatibility">Compatibility</a> •
+  <a href="#skills">Skills</a> •
+  <a href="#-skills-vs-mcp-for-sre">Skills vs MCP</a> •
+  <a href="#contributing">Contributing</a>
+</p>
 
 ---
 
