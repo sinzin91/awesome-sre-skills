@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-30-blue?style=flat-square" alt="Skills">
-  <img src="https://img.shields.io/badge/updated-Feb%202026-green.svg" alt="Last Updated">
+  <img src="https://img.shields.io/badge/skills-53-blue?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/updated-Jul%202026-green.svg" alt="Last Updated">
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 </p>
 
@@ -79,11 +79,16 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 *Debug application performance, trace requests across services, analyze AI agent behavior.*
 
-| Skill                                                                                                                                                                          | Creator          | Description                                                             | Platform |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- | ----------------------------------------------------------------------- | -------- |
-| [Datadog Auto-Detector](https://skillsmp.com/skills/schovi-claude-schovi-schovi-skills-datadog-auto-detector-skill-md)                                                         | @schovi          | Auto-detects Datadog URLs/queries, spawns analyzer subagent for context | 📦       |
-| [LangSmith Fetch](https://github.com/OthmanAdi/langsmith-fetch-skill)                                                                                                          | @OthmanAdi       | Debug LangChain/LangGraph agents via LangSmith traces                   | 🤖       |
-| [Retell AI Observability](https://skillsmp.com/skills/jeremylongshore-claude-code-plugins-plus-skills-plugins-saas-packs-retellai-pack-skills-retellai-observability-skill-md) | @jeremylongshore | Metrics, traces, alerts for Retell AI voice integrations                | 📦       |
+| Skill                                                                                                                                                                  | Creator          | Description                                                                                 | Platform |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------- | -------- |
+| [Datadog Auto-Detector](https://github.com/schovi/claude-schovi/tree/main/plugins/schovi/skills/datadog-auto-detector)                                                 | @schovi          | Auto-detects Datadog URLs/queries, spawns analyzer subagent for context                     | 📦       |
+| [LangSmith Fetch](https://github.com/OthmanAdi/langsmith-fetch-skill)                                                                                                  | @OthmanAdi       | Debug LangChain/LangGraph agents via LangSmith traces                                       | 🤖       |
+| [Retell AI Observability](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/retellai-pack/skills/retellai-observability) | @jeremylongshore | Metrics, traces, alerts for Retell AI voice integrations                                    | 📦       |
+| [Honeycomb Agent Skills](https://github.com/honeycombio/agent-skill) 🎖️                                                                                               | @honeycombio     | Official Honeycomb skills: querying, SLOs/triggers, OTel instrumentation, prod-debug agents | 🤖       |
+| [Langfuse Skills](https://github.com/langfuse/skills) 🎖️ ⭐                                                                                                            | @langfuse        | Query/manage Langfuse traces, prompts, datasets & scores for LLM-app observability          | 📦       |
+| [LangSmith Skills](https://github.com/langchain-ai/langsmith-skills) 🎖️ ⭐                                                                                             | @langchain-ai    | Query LLM traces, build eval datasets & custom evaluators in LangSmith                      | 📦       |
+| [Datadog Agent Skills](https://github.com/datadog-labs/agent-skills) 🎖️ ⭐                                                                                             | Datadog          | APM/trace analysis and LLM-app observability (RCA, eval, session tracing)                   | 🤖       |
+| [Elastic Agent Skills](https://github.com/elastic/agent-skills) 🎖️ ⭐                                                                                                  | Elastic          | Observability skills: EDOT/OTel, APM, SLOs, Kubernetes investigation, ES&#124;QL log search | 📦       |
 
 ---
 
@@ -91,13 +96,15 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 *Search and analyze logs, detect anomalies, correlate events across systems.*
 
-| Skill                                                                                                                   | Creator     | Description                                                                | Platform |
-| ----------------------------------------------------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------- | -------- |
-| [Datadog CLI Skill](https://mcpmarket.com/tools/skills/datadog-cli)                                                     | MCPMarket   | Search logs, tail real-time data, correlate traces, analyze error patterns | 📦       |
-| [Datadog Debug Workflow](https://github.com/schovi/claude-schovi)                                                       | @schovi     | Debug command with Datadog analyzer for log/metric/trace correlation       | 🤖       |
-| [Splunk Assistant Skills](https://github.com/grandcamel/splunk-assistant-skills)                                        | @grandcamel | Splunk REST API automation, search queries, threat hunting                 | 🤖       |
-| [Splunk Alert Management](https://mcpmarket.com/tools/skills/splunk-alert-management)                                   | MCPMarket   | Create, monitor, manage Splunk alerts and saved searches                   | 📦       |
-| [DevOps Monitor Commands](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/commands/devops/monitor.md) | @rohitg00   | Log analysis, metric queries, dashboard generation                         | 🤖       |
+| Skill                                                                                                                   | Creator             | Description                                                                              | Platform |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------- | -------- |
+| [Datadog CLI Skill](https://github.com/DataDog/pup) 🎖️ ⭐                                                               | Datadog             | Official Datadog `pup` CLI + skills: `/sre-investigate` for log/trace/metric correlation | 🤖       |
+| [Datadog Debug Workflow](https://github.com/schovi/claude-schovi)                                                       | @schovi             | Debug command with Datadog analyzer for log/metric/trace correlation                     | 🤖       |
+| [Splunk Assistant Skills](https://github.com/grandcamel/splunk-assistant-skills)                                        | @grandcamel         | Splunk REST API automation, search queries, threat hunting                               | 🤖       |
+| [DevOps Monitor Commands](https://github.com/rohitg00/awesome-claude-code-toolkit/blob/main/commands/devops/monitor.md) | @rohitg00           | Monitoring-setup playbook: Prometheus/Grafana/Datadog config, alert rules, OTel tracing  | 🤖       |
+| [Coralogix cx-cli Skills](https://github.com/coralogix/cx-cli/tree/master/skills) 🎖️ ⭐                                 | Coralogix           | Official skills to query logs, spans, metrics, RUM, alerts & SLOs via the cx CLI         | 🤖       |
+| [OpenSearch Agent Skills](https://github.com/opensearch-project/opensearch-agent-skills) 🎖️                            | @opensearch-project | Log & trace analytics with PPL queries, error and trace investigation                    | 📦       |
+| [kstack](https://github.com/kubetail-org/kstack) ⭐                                                                      | @kubetail-org       | Kubernetes log/metrics investigation + security/cost/network audits via slash commands   | 🤖       |
 
 ---
 
@@ -105,20 +112,22 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 *Query metrics, build dashboards, set up alerting rules, track SLOs.*
 
-| Skill                                                                                                         | Creator         | Description                                                                 | Platform |
-| ------------------------------------------------------------------------------------------------------------- | --------------- | --------------------------------------------------------------------------- | -------- |
-| [Grafana Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/grafana-skill)          | @julianobarbosa | Grafana HTTP API for dashboards, alerts, data sources, annotations          | 🤖       |
-| [Prometheus Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/prometheus-skill)    | @julianobarbosa | Query Prometheus HTTP API, execute PromQL, analyze time series              | 🤖       |
-| [Loki Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/loki-skill)                | @julianobarbosa | Grafana Loki log aggregation, LogQL queries                                 | 🤖       |
-| [Mimir Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/mimir-skill)              | @julianobarbosa | Grafana Mimir for long-term Prometheus metrics storage                      | 🤖       |
-| [Tempo Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/tempo-skill)              | @julianobarbosa | Grafana Tempo distributed tracing                                           | 🤖       |
-| [Pyroscope Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/pyroscope-skill)      | @julianobarbosa | Continuous profiling with Grafana Pyroscope                                 | 🤖       |
-| [Monitoring Expert](https://skillsmp.com/de/skills/jeffallan-claude-skills-skills-monitoring-expert-skill-md) | @Jeffallan      | Build monitoring systems (Prometheus, Grafana, Datadog), incident detection | 📦       |
-| [Datadog Observability](https://mcpmarket.com/tools/skills/datadog-observability-monitoring)                  | MCPMarket       | Query Datadog logs, metrics, APM traces for monitoring and debugging        | 📦       |
-| [Monitoring Config Generator](https://openclaw.army/skills/lxgicstudios/monitoring-config-generator/)         | lxgicstudios    | Generate Prometheus alert rules + Grafana dashboards                        | 🦞       |
-| [Production Monitoring](https://skillmd.ai/how-to-build/production-monitoring/)                               | SkillMD         | Daily health checks, container status, error scanning                       | 📦       |
-| [Uptime Kuma](https://openclaw.army/skills/msarheed/uptime-kuma/)                                             | @msarheed       | Manage uptime monitors, heartbeats, pause/resume endpoints                  | 🦞       |
-| [DevOps Claude Skills](https://github.com/ahmedasmar/devops-claude-skills) ⭐                                  | @ahmedasmar     | 6 scripts: metrics analysis, SLO calculation, log analysis, dashboards      | 🤖       |
+| Skill                                                                                                                 | Creator         | Description                                                                               | Platform |
+| --------------------------------------------------------------------------------------------------------------------- | --------------- | ----------------------------------------------------------------------------------------- | -------- |
+| [Grafana Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/grafana)                        | @julianobarbosa | Grafana HTTP API for dashboards, alerts, data sources, annotations                        | 🤖       |
+| [Prometheus Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/prometheus)                  | @julianobarbosa | Query Prometheus HTTP API, execute PromQL, analyze time series                            | 🤖       |
+| [Loki Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/loki)                              | @julianobarbosa | Grafana Loki log aggregation, LogQL queries                                               | 🤖       |
+| [Mimir Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/mimir)                            | @julianobarbosa | Grafana Mimir for long-term Prometheus metrics storage                                    | 🤖       |
+| [Tempo Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/tempo)                            | @julianobarbosa | Grafana Tempo distributed tracing                                                         | 🤖       |
+| [Pyroscope Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/pyroscope)                    | @julianobarbosa | Continuous profiling with Grafana Pyroscope                                               | 🤖       |
+| [Monitoring Expert](https://skillsmp.com/de/skills/jeffallan-claude-skills-skills-monitoring-expert-skill-md)         | @Jeffallan      | Build monitoring systems (Prometheus, Grafana, Datadog), incident detection               | 📦       |
+| [Monitoring Config Generator](https://openclaw.army/skills/lxgicstudios/monitor-gen/)                                 | lxgicstudios    | Generate Prometheus alert rules + Grafana dashboards                                      | 🦞       |
+| [Production Monitoring](https://skillmd.ai/how-to-build/production-monitoring/)                                       | SkillMD         | Daily health checks, container status, error scanning                                     | 📦       |
+| [Uptime Kuma](https://openclaw.army/skills/msarheed/uptime-kuma/)                                                     | @msarheed       | Manage uptime monitors, heartbeats, pause/resume endpoints                                | 🦞       |
+| [DevOps Claude Skills](https://github.com/ahmedasmar/devops-claude-skills) ⭐                                          | @ahmedasmar     | 6 scripts: metrics analysis, SLO calculation, log analysis, dashboards                    | 🤖       |
+| [Grafana Skills](https://github.com/grafana/skills) 🎖️ ⭐                                                             | @grafana        | 44 official skills for Grafana, PromQL, Loki, Tempo, Mimir, Pyroscope, k6 & on-call/IRM   | 🤖       |
+| [Checkly Skill](https://github.com/checkly/checkly-cli/tree/main/skills/checkly) 🎖️ ⭐                                | Checkly         | Synthetic & uptime monitoring-as-code: API/browser/multistep checks, alerts, status pages | 📦       |
+| [Observability & Monitoring Plugin](https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring) ⭐⭐ | @wshobson       | Prometheus config, Grafana dashboards (RED/USE), SLO implementation & distributed tracing | 🤖       |
 
 ---
 
@@ -126,12 +135,28 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 *Triage incidents, execute runbooks, classify severity, generate postmortems.*
 
-| Skill                                                                                                                                       | Creator    | Description                                                                           | Platform |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------- | -------- |
-| [PagerDuty Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/pagerduty-automation)                                | ComposioHQ | Full PagerDuty workflow: incidents, schedules, escalation policies, on-call rotations | 🤖       |
-| [Incident Triage](https://skillmd.ai/how-to-build/incident-triage-1/)                                                                       | SkillMD    | SEV classification, first 5-15 min response framework                                 | 📦       |
-| [On-Call Playbooks](https://skillmd.ai/how-to-build/on-call-playbooks/)                                                                     | SkillMD    | Comprehensive runbooks for common incidents                                           | 📦       |
-| [IT Operations](https://skillsmp.com/es/skills/davila7-claude-code-templates-cli-tool-components-skills-development-it-operations-skill-md) | @davila7   | ITIL service management, observability strategies, incident response                  | 📦       |
+| Skill                                                                                                                                       | Creator      | Description                                                                          | Platform |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------ | -------- |
+| [Incident Triage](https://skillmd.ai/how-to-build/incident-triage-1/)                                                                       | SkillMD      | SEV classification, first 5-15 min response framework                                | 📦       |
+| [On-Call Playbooks](https://skillmd.ai/how-to-build/on-call-playbooks/)                                                                     | SkillMD      | Comprehensive runbooks for common incidents                                          | 📦       |
+| [IT Operations](https://skillsmp.com/es/skills/davila7-claude-code-templates-cli-tool-components-skills-development-it-operations-skill-md) | @davila7     | ITIL service management, observability strategies, incident response                 | 📦       |
+| [Incident Response (Anthropic)](https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering/skills/incident-response) 🎖️ ⭐⭐ | Anthropic    | Incident triage (SEV1-4), status comms & blameless postmortems with 5-whys RCA       | 🤖       |
+| [PagerDuty Claude Code Plugins](https://github.com/PagerDuty/claude-code-plugins) 🎖️                                                       | PagerDuty    | Official PagerDuty plugins: commit-risk scoring from incident history, skill-builder | 🤖       |
+| [Axiom SRE](https://github.com/axiomhq/skills/tree/main/skills/sre) 🎖️                                                                     | @axiomhq     | Official Axiom skill: query logs/metrics & investigate incidents via APL             | 🤖       |
+| [Incident Commander](https://github.com/borghei/Claude-Skills/blob/main/engineering/incident-commander/SKILL.md) ⭐                          | @borghei     | SEV scoring, timeline reconstruction & postmortem/RCA generation                     | 📦       |
+| [Incident Response Plugin](https://github.com/wshobson/agents/tree/main/plugins/incident-response) ⭐⭐                                       | @wshobson    | Postmortem writing and on-call handoff patterns                                      | 🤖       |
+| [Claude Tabletop](https://github.com/cjcsecurity/claude-tabletop)                                                                           | @cjcsecurity | Generate project-aware IR tabletop exercises, facilitator runbook & AAR              | 🤖       |
+
+---
+
+### Reliability & Chaos Engineering
+
+*Define SLOs and error budgets, run chaos experiments, and validate resilience before failures hit prod.*
+
+| Skill                                                                                                            | Creator  | Description                                                                                | Platform |
+| ---------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------ | -------- |
+| [AWS Resilience Skills](https://github.com/aws-samples/sample-aws-resilience-skill) 🎖️                          | AWS      | Resilience maturity/modeling, chaos engineering (FIS), EKS checks, Well-Architected review | 📦       |
+| [Chaos Engineering](https://github.com/borghei/Claude-Skills/blob/main/engineering/chaos-engineering/SKILL.md) ⭐ | @borghei | Design & run fault-injection experiments with hypotheses and blast-radius control          | 📦       |
 
 ---
 
@@ -139,14 +164,18 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 *Kubernetes troubleshooting, cloud platform operations, DevOps toolkits.*
 
-| Skill                                                                                                    | Creator         | Description                                                                   | Platform |
-| -------------------------------------------------------------------------------------------------------- | --------------- | ----------------------------------------------------------------------------- | -------- |
-| [HolmesGPT Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/holmesgpt-skill) | @julianobarbosa | Investigate Kubernetes issues, analyze alerts, troubleshoot cloud-native apps | 🤖       |
-| [Microsoft Azure Skills](https://github.com/microsoft/skills) 🎖️ ⭐⭐                                     | Microsoft       | Azure SDKs, AI Foundry integration, cloud resource management                 | 🤖       |
-| AWS Cost & Operations                                                                                    | @zxkane         | CloudWatch metrics, Cost Explorer, Well-Architected reviews                   | 🤖       |
-| [Cloudflare Troubleshooting](https://github.com/daymade/claude-code-skills) ⭐⭐                           | @daymade        | Diagnose Cloudflare issues (SSL, DNS, redirects, caching)                     | 🤖       |
-| [ServiceNow Agent](https://openclaw.army/skills/thesethrose/servicenow-agent/)                           | @thesethrose    | Read-only queries to ServiceNow ITSM (tables, CMDB, incidents)                | 🦞       |
-| [DevOps Skills](https://github.com/lgbarn/devops-skills)                                                 | @lgbarn         | Terraform/OpenTofu workflows, AWS infrastructure, safety-first IaC            | 🤖       |
+| Skill                                                                                              | Creator         | Description                                                                              | Platform |
+| -------------------------------------------------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------- | -------- |
+| [HolmesGPT Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/holmesgpt) | @julianobarbosa | Investigate Kubernetes issues, analyze alerts, troubleshoot cloud-native apps            | 🤖       |
+| [Microsoft Azure Skills](https://github.com/microsoft/skills) 🎖️ ⭐⭐                               | Microsoft       | Azure SDKs, AI Foundry integration, cloud resource management                            | 🤖       |
+| AWS Cost & Operations                                                                              | @zxkane         | CloudWatch metrics, Cost Explorer, Well-Architected reviews                              | 🤖       |
+| [Cloudflare Troubleshooting](https://github.com/daymade/claude-code-skills) ⭐⭐                     | @daymade        | Diagnose Cloudflare issues (SSL, DNS, redirects, caching)                                | 🤖       |
+| [ServiceNow Agent](https://openclaw.army/skills/thesethrose/servicenow-agent/)                     | @thesethrose    | Read-only queries to ServiceNow ITSM (tables, CMDB, incidents)                           | 🦞       |
+| [DevOps Skills](https://github.com/lgbarn/devops-skills)                                           | @lgbarn         | Terraform/OpenTofu workflows, AWS infrastructure, safety-first IaC                       | 🤖       |
+| [Kubernetes Skill](https://github.com/LukasNiessen/kubernetes-skill) ⭐                             | @LukasNiessen   | Grounds agents in official Kubernetes/Helm/Kustomize best practices & security hardening | 🤖       |
+| [Flux CD Agent Skills](https://github.com/fluxcd/agent-skills) 🎖️ ⭐                               | @fluxcd         | Debug live Flux/Kubernetes GitOps clusters, audit repo readiness, generate manifests     | 🤖       |
+| [Terraform Skill](https://github.com/antonbabenko/terraform-skill) ⭐⭐                              | @antonbabenko   | Terraform/OpenTofu best practices: testing, modules, state, CI/CD, security scanning     | 📦       |
+| [Neon PostgreSQL Skills](https://github.com/neondatabase/postgres-skills) 🎖️                      | @neondatabase   | PostgreSQL reliability best practices: performance, HA and operational tuning            | 🤖       |
 
 ---
 
@@ -164,14 +193,14 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ## Skill Registries
 
-| Registry                                                                            | Skills   | Notes                              |
-| ----------------------------------------------------------------------------------- | -------- | ---------------------------------- |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐     | 1000+    | ComposioHQ curated list            |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐  | 3000+    | VoltAgent curated list             |
-| [SkillsMP](https://skillsmp.com)                                                    | 160,000+ | Cross-platform marketplace         |
-| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                                   | varies   | OpenClaw official registry         |
-| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                     | ~50      | Official reference implementations |
-| [agent-skills.md](https://agent-skills.md/)                                         | varies   | Skill discovery site               |
+| Registry                                                                           | Skills     | Notes                              |
+| ---------------------------------------------------------------------------------- | ---------- | ---------------------------------- |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐    | 1000+      | ComposioHQ curated list            |
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐ | 5,200+     | VoltAgent curated list             |
+| [SkillsMP](https://skillsmp.com)                                                   | 2,000,000+ | Cross-platform marketplace         |
+| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                                  | varies     | OpenClaw official registry         |
+| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                    | ~17        | Official reference implementations |
+| [agent-skills.md](https://agent-skills.md/)                                        | varies     | Skill discovery site               |
 
 ---
 
@@ -207,7 +236,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 ### Skill Development
 
 - [Agent Skills Spec](https://github.com/agentskills/agentskills) ⭐⭐ - Open standard for portable skills
-- [Claude Code Skills Guide](https://docs.anthropic.com/en/docs/claude-code/skills) - Official Anthropic docs.
+- [Claude Code Skills Guide](https://code.claude.com/docs/en/skills) - Official Anthropic docs.
 
 ### Security Research
 
@@ -270,7 +299,7 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 ### Adding a Skill
 
 1. Fork this repo
-2. Add your skill to the appropriate **use case category** (APM & Tracing, Logging & Log Analysis, Metrics & Monitoring, Incident Response & Alerting, Infrastructure & Cloud, or Security & Compliance).
+2. Add your skill to the appropriate **use case category** (APM & Tracing, Logging & Log Analysis, Metrics & Monitoring, Incident Response & Alerting, Infrastructure & Cloud, Reliability & Chaos Engineering, or Security & Compliance).
 3. Include: Name (with link), creator, description, platform icon, star count
 4. Mark official skills with 🎖️
 5. Submit a PR
@@ -288,5 +317,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 ---
 
 <p align="center">
-  <em>Last updated: 2026-02-13</em>
+  <em>Last updated: 2026-07-04</em>
 </p>
