@@ -146,6 +146,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Incident Commander](https://github.com/borghei/Claude-Skills/blob/main/engineering/incident-commander/SKILL.md) ⭐                          | @borghei     | SEV scoring, timeline reconstruction & postmortem/RCA generation                     | 📦       |
 | [Incident Response Plugin](https://github.com/wshobson/agents/tree/main/plugins/incident-response) ⭐⭐                                       | @wshobson    | Postmortem writing and on-call handoff patterns                                      | 🤖       |
 | [Claude Tabletop](https://github.com/cjcsecurity/claude-tabletop)                                                                           | @cjcsecurity | Generate project-aware IR tabletop exercises, facilitator runbook & AAR              | 🤖       |
+| [Silent Failure Triage](https://github.com/deemwario/agent-skills/tree/main/skills/silent-failure-triage)                                   | @muthuishere | Diagnose incidents where monitoring stays green: liveness vs delivery, quota/version/identity checks before your own code | 🤖 🦞    |
 
 ---
 
