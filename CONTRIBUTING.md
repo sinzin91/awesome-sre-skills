@@ -65,10 +65,10 @@ Each table row must include these fields:
 
 ### Choosing Icons and Markers
 
-Pick the platform icon from what the linked source actually ships, using the first rule that matches:
+The platform icon shows an entry's primary platform. Pick it from what the linked source actually ships, using the first rule that matches:
 
-1. 🦞 **OpenClaw**: ClawHub-hosted or OpenClaw-native skills
-2. 📦 **SkillMD**: SkillMD packages
+1. 🦞 **OpenClaw**: hosted on ClawHub, or built for OpenClaw first, meaning the README or docs name OpenClaw as the primary target (e.g. ClawSec, a security suite for OpenClaw). This holds even if the source also ships a Claude Code plugin.
+2. 📦 **SkillMD**: packages hosted on [skillmd.ai](https://skillmd.ai/). This is not the same as the `SKILL.md` file format.
 3. 🤖 **Claude Code**: everything else Claude Code loads: a Claude Code plugin or plugin marketplace (`.claude-plugin/plugin.json` or `.claude-plugin/marketplace.json`), `CLAUDE.md` / `commands/*.md`, or a standard `SKILL.md` (Claude Code loads these natively)
 
 Add 💰 only when the skill requires a specific paid product or plan with no usable free tier. A free plan, an open-source or self-hosted edition, or a free license counts as free; a time-limited trial does not. General cloud infrastructure cost (e.g. running an EKS cluster) doesn't count.

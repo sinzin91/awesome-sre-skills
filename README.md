@@ -56,13 +56,13 @@ cp -r skill-folder ~/.openclaw/skills/
 
 ## Compatibility
 
-| Platform    | Instruction File                                   | Icon |
-| ----------- | -------------------------------------------------- | ---- |
-| Claude Code | Plugin, `SKILL.md`, `CLAUDE.md` or `commands/*.md` | 🤖   |
-| OpenClaw    | ClawHub/OpenClaw-native `SKILL.md`                 | 🦞   |
-| SkillMD     | Cross-platform packages                            | 📦   |
+| Platform    | Instruction File                                                        | Icon |
+| ----------- | ----------------------------------------------------------------------- | ---- |
+| Claude Code | Plugin, `SKILL.md`, `CLAUDE.md` or `commands/*.md`                      | 🤖   |
+| OpenClaw    | Skills built for OpenClaw (ClawHub-hosted, or targeting OpenClaw first) | 🦞   |
+| SkillMD     | Packages hosted on [skillmd.ai](https://skillmd.ai/)                    | 📦   |
 
-Most skills in this list work with Claude Code. Look for the platform icon to check compatibility.
+Each entry's icon shows its **primary** platform, meaning the agent it's packaged or built for. Compatibility is wider than that: a standard `SKILL.md` follows the open Agent Skills format, so most 🤖 and 🦞 skills work in both Claude Code and OpenClaw. Check the skill's README for the agents it supports.
 
 **Other icons:**
 - 🎖️ Official (maintained by vendor)
@@ -318,9 +318,9 @@ Skills work with Claude Pro, Max, Team, and Enterprise. Free tier users don't ha
 <details>
 <summary><strong>Why are some links marked with different icons?</strong></summary>
 
-- 🤖 = Claude Code compatible (plugin, SKILL.md, CLAUDE.md or commands)
-- 🦞 = OpenClaw/ClawHub-native skill (SKILL.md format)  
-- 📦 = SkillMD cross-platform package
+- 🤖 = Primarily Claude Code (plugin, SKILL.md, CLAUDE.md or commands)
+- 🦞 = Primarily OpenClaw (ClawHub-hosted or built for OpenClaw)  
+- 📦 = SkillMD package (hosted on skillmd.ai)
 - 🎖️ = Official/vendor-maintained
 - 💰 = Requires a paid service (no usable free tier)
 
