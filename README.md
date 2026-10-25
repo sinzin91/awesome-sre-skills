@@ -26,7 +26,7 @@
 
 ## Why This List
 
-Large skill registries like [ClawHub](https://clawhub.ai/) (80,000+ skills) and awesome-openclaw-skills (5,300+) are great for discovery but can be noisy. This list focuses on SRE, observability, and incident response skills across platforms (Claude Code, OpenClaw, and SkillMD).
+Large skill registries like ClawHub (80,000+ skills) and awesome-openclaw-skills (5,300+) are great for discovery but can be noisy. This list focuses on SRE, observability, and incident response skills across platforms (Claude Code, OpenClaw, and SkillMD).
 
 > Missing a skill? [Open an issue](../../issues/new) or submit a PR.
 
