@@ -11,6 +11,7 @@ To be included in this list, a skill must meet **both** of these requirements:
 1. **Format** — Must be in one of these AI agent skill formats:
    - `SKILL.md` (Agent Skills format, loaded by Claude Code and OpenClaw/ClawHub)
    - `CLAUDE.md` or `commands/*.md` (Claude Code)
+   - Claude Code plugins (`.claude-plugin/`) that bundle skills or commands
    - SkillMD cross-platform packages
 
 2. **Domain** — Must relate to SRE, observability, or reliability engineering:
@@ -66,9 +67,9 @@ Each table row must include these fields:
 
 Pick the platform icon from what the linked source actually ships, using the first rule that matches:
 
-1. 🤖 **Claude Code**: a Claude Code plugin (`.claude-plugin/plugin.json` or `marketplace.json`), `CLAUDE.md` / `commands/*.md`, or a standard `SKILL.md` (Claude Code loads these natively)
-2. 🦞 **OpenClaw**: ClawHub-hosted or OpenClaw-native skills
-3. 📦 **SkillMD**: SkillMD packages only
+1. 🦞 **OpenClaw**: ClawHub-hosted or OpenClaw-native skills
+2. 📦 **SkillMD**: SkillMD packages
+3. 🤖 **Claude Code**: everything else Claude Code loads: a Claude Code plugin or plugin marketplace (`.claude-plugin/plugin.json` or `.claude-plugin/marketplace.json`), `CLAUDE.md` / `commands/*.md`, or a standard `SKILL.md` (Claude Code loads these natively)
 
 Add 💰 only when the skill requires a specific paid product or plan with no usable free tier. A free plan, an open-source or self-hosted edition, or a free license counts as free; a time-limited trial does not. General cloud infrastructure cost (e.g. running an EKS cluster) doesn't count.
 
@@ -85,7 +86,7 @@ Add 💰 only when the skill requires a specific paid product or plan with no us
 
 Before submitting, verify:
 
-- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, or SkillMD format
+- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, Claude Code plugin, or SkillMD format
 - [ ] Topic relates to SRE/observability/monitoring/incident response
 - [ ] Repo has commits within the last 6 months
 - [ ] Documentation clearly explains how to use it
