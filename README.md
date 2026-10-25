@@ -67,6 +67,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 **Other icons:**
 - 🎖️ Official (maintained by vendor)
 - ⭐ Popular (50+ GitHub stars at time of addition)
+- 💰 Requires a paid service (no usable free tier)
 
 ---
 
@@ -231,7 +232,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐    | 170+       | ComposioHQ curated list            |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐ | 5,300+     | VoltAgent curated list             |
 | [SkillsMP](https://skillsmp.com)                                                   | 3,000,000+ | Cross-platform marketplace         |
-| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                                  | varies     | OpenClaw official registry         |
+| [ClawHub](https://github.com/openclaw/clawhub) ⭐⭐                                  | 80,000+    | OpenClaw official registry         |
 | [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                    | ~19        | Official reference implementations |
 | [agent-skills.md](https://agent-skills.md/)                                        | varies     | Skill discovery site               |
 
@@ -320,6 +321,7 @@ Skills work with Claude Pro, Max, Team, and Enterprise. Free tier users don't ha
 - 🦞 = OpenClaw compatible (SKILL.md format)  
 - 📦 = SkillMD cross-platform package
 - 🎖️ = Official/vendor-maintained
+- 💰 = Requires a paid service
 
 </details>
 
