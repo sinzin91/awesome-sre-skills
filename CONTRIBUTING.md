@@ -12,7 +12,7 @@ To be included in this list, a skill must meet **both** of these requirements:
    - `SKILL.md` (Agent Skills format, loaded by Claude Code and OpenClaw/ClawHub)
    - `CLAUDE.md` or `commands/*.md` (Claude Code)
    - Claude Code plugins (`.claude-plugin/`) that bundle skills or commands
-   - SkillMD cross-platform packages
+   - SkillMD packages hosted on [skillmd.ai](https://skillmd.ai/)
 
 2. **Domain** — Must relate to SRE, observability, or reliability engineering:
    - **Monitoring** — Metrics queries, dashboards, alerting
@@ -86,7 +86,7 @@ Add 💰 only when the skill requires a specific paid product or plan with no us
 
 Before submitting, verify:
 
-- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, Claude Code plugin, or SkillMD format
+- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, a Claude Code plugin that bundles skills or commands, or SkillMD format
 - [ ] Topic relates to SRE/observability/monitoring/incident response
 - [ ] Repo has commits within the last 6 months
 - [ ] Documentation clearly explains how to use it
