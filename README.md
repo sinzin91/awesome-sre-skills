@@ -56,11 +56,11 @@ cp -r skill-folder ~/.openclaw/skills/
 
 ## Compatibility
 
-| Platform    | Instruction File               | Icon |
-| ----------- | ------------------------------ | ---- |
-| Claude Code | `CLAUDE.md` or `commands/*.md` | 🤖   |
-| OpenClaw    | `SKILL.md`                     | 🦞   |
-| SkillMD     | Cross-platform packages        | 📦   |
+| Platform    | Instruction File                                   | Icon |
+| ----------- | -------------------------------------------------- | ---- |
+| Claude Code | Plugin, `SKILL.md`, `CLAUDE.md` or `commands/*.md` | 🤖   |
+| OpenClaw    | ClawHub/OpenClaw-native `SKILL.md`                 | 🦞   |
+| SkillMD     | Cross-platform packages                            | 📦   |
 
 Most skills in this list work with Claude Code. Look for the platform icon to check compatibility.
 
@@ -117,7 +117,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Coralogix cx-cli Skills](https://github.com/coralogix/cx-cli/tree/master/skills) 💰 🎖️ ⭐                               | Coralogix           | Official skills to query logs, spans, metrics, RUM, alerts & SLOs via the cx CLI         | 🤖       |
 | [OpenSearch Agent Skills](https://github.com/opensearch-project/opensearch-agent-skills) 🎖️                             | @opensearch-project | Log & trace analytics with PPL queries, error and trace investigation                    | 🤖       |
 | [kstack](https://github.com/kubetail-org/kstack) ⭐                                                                       | @kubetail-org       | Kubernetes log/metrics investigation + security/cost/network audits via slash commands   | 🤖       |
-| [Splunk Agent Skills](https://github.com/splunk/splunk-agent-skills/tree/main/skills) 🎖️ ⭐                              | Splunk              | 32 skills: SPL search, alerting, ingest doctor, cluster health, incident diagnosis       | 🦞       |
+| [Splunk Agent Skills](https://github.com/splunk/splunk-agent-skills/tree/main/skills) 🎖️ ⭐                              | Splunk              | 32 skills: SPL search, alerting, ingest doctor, cluster health, incident diagnosis       | 🤖       |
 | [ClickStack OTel Collector](https://github.com/ClickHouse/agent-skills/tree/main/skills/clickstack-otel-collector) 🎖️ ⭐ | ClickHouse          | Wire an OTel Collector into ClickStack (HyperDX) for logs, traces & metrics              | 🤖       |
 
 ---
@@ -138,7 +138,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Production Monitoring](https://skillmd.ai/how-to-build/production-monitoring/)                                         | SkillMD         | Daily health checks, container status, error scanning                                     | 📦       |
 | [Uptime Kuma](https://clawhub.ai/msarheed/skills/uptime-kuma)                                                           | @msarheed       | Manage uptime monitors, heartbeats, pause/resume endpoints                                | 🦞       |
 | [Grafana Skills](https://github.com/grafana/skills) 🎖️ ⭐                                                               | @grafana        | 44 official skills for Grafana, PromQL, Loki, Tempo, Mimir, Pyroscope, k6 & on-call/IRM   | 🤖       |
-| [Checkly Skill](https://github.com/checkly/checkly-cli/tree/main/skills/checkly) 🎖️ ⭐                                  | Checkly         | Synthetic & uptime monitoring-as-code: API/browser/multistep checks, alerts, status pages | 🦞       |
+| [Checkly Skill](https://github.com/checkly/checkly-cli/tree/main/skills/checkly) 🎖️ ⭐                                  | Checkly         | Synthetic & uptime monitoring-as-code: API/browser/multistep checks, alerts, status pages | 🤖       |
 | [Observability & Monitoring Plugin](https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring) ⭐⭐   | @wshobson       | Prometheus config, Grafana dashboards (RED/USE), SLO implementation & distributed tracing | 🤖       |
 | [gcx Claude Plugin](https://github.com/grafana/gcx/tree/main/claude-plugin/skills) 🎖️ ⭐                                | @grafana        | Grafana CLI skills: alert investigation, on-call triage, SLOs, synthetics, dashboards     | 🤖       |
 | [VictoriaMetrics Skills](https://github.com/VictoriaMetrics/skills/tree/main/plugins) 🎖️ ⭐                             | VictoriaMetrics | MetricsQL/LogsQL/trace queries, cardinality analysis, diagnostics & vmanomaly             | 🤖       |
@@ -186,7 +186,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Site Reliability Engineering](https://github.com/magnus919/agent-skills/tree/main/site-reliability-engineering) ⭐                 | @magnus919      | SLO, error-budget and incident-command practices                                           | 🤖       |
 | [Harness Observability & Governance](https://github.com/harness/harness-skills/tree/main/skills/observability-governance) 💰 🎖️ ⭐ | Harness         | Chaos experiments, DR tests, SLOs, incident response & DORA metrics                        | 🤖       |
 | [Well-Architected Skills](https://github.com/aws-samples/sample-well-architected-skills-and-steering) 🎖️ ⭐                        | AWS             | Well-Architected reviews, including reliability-pillar improvement plans                   | 🤖       |
-| [EKS Operation Review](https://github.com/aws-samples/sample-eks-operation-review-skill) 💰 🎖️                                    | AWS             | Read-only operational-readiness assessment of a live EKS cluster                           | 🤖       |
+| [EKS Operation Review](https://github.com/aws-samples/sample-eks-operation-review-skill) 🎖️                                       | AWS             | Read-only operational-readiness assessment of a live EKS cluster                           | 🤖       |
 
 ---
 
@@ -208,7 +208,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Platform Skills](https://github.com/nitinjain999/platform-skills/tree/main/plugins/platform-skills/skills) ⭐                         | @nitinjain999   | Platform/SRE handbook: Kubernetes, Flux, chaos, DORA, cluster upgrades & DR              | 🤖       |
 | [APEX EKS/ECS Skills](https://github.com/aws-samples/sample-apex-skills/tree/main/skills) 🎖️ ⭐                                       | AWS             | EKS/ECS operations reviews, upgrade checks, observability & cost                         | 🤖       |
 | [Azure Diagnostics](https://github.com/microsoft/azure-skills/tree/main/.github/plugins/azure-skills/skills/azure-diagnostics) 🎖️ ⭐⭐ | Microsoft       | Debug Azure production issues with AppLens & Azure Monitor                               | 🤖       |
-| [Azure SRE Agent Skills](https://github.com/ricmmartins/azure-sre-agent-skills/tree/main/skills) 💰 ⭐                                 | @ricmmartins    | WAF review, FinOps, capacity planning & postmortems for Azure SRE Agent                  | 🦞       |
+| [Azure SRE Agent Skills](https://github.com/ricmmartins/azure-sre-agent-skills/tree/main/skills) 💰 ⭐                                 | @ricmmartins    | WAF review, FinOps, capacity planning & postmortems for Azure SRE Agent                  | 🤖       |
 | [VMware AIops](https://github.com/vmware-skills/VMware-AIops/tree/main/skills/vmware-aiops) 💰 ⭐                                      | @vmware-skills  | vCenter/ESXi VM operations and alarm triage                                              | 🤖       |
 | [Anyshift SRE Skills](https://github.com/anyshift-io/sre-skills/tree/main/skills)                                                     | @anyshift-io    | kubectl investigation plus IAM, security-group, S3 & SQS auditors                        | 🤖       |
 
@@ -220,7 +220,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 | Skill                                                                     | Creator         | Description                                                                                | Platform |
 | ------------------------------------------------------------------------- | --------------- | ------------------------------------------------------------------------------------------ | -------- |
-| [ClawSec](https://github.com/prompt-security/clawsec) ⭐⭐                  | Prompt Security | Security skill suite: prompt injection, supply chain, credential leak detection            | 🤖       |
+| [ClawSec](https://github.com/prompt-security/clawsec) ⭐⭐                  | Prompt Security | Security skill suite: prompt injection, supply chain, credential leak detection            | 🦞       |
 | [Trail of Bits Security Skills](https://github.com/trailofbits/skills) ⭐⭐ | Trail of Bits   | Security research, vulnerability detection, audit workflows (fix review, variant analysis) | 🤖       |
 | [CrowdSec Skill](https://github.com/crowdsecurity/crowdsec-skill) 🎖️     | CrowdSec        | Install, configure, operate & debug CrowdSec intrusion prevention                          | 🤖       |
 
@@ -318,8 +318,8 @@ Skills work with Claude Pro, Max, Team, and Enterprise. Free tier users don't ha
 <details>
 <summary><strong>Why are some links marked with different icons?</strong></summary>
 
-- 🤖 = Claude Code compatible (CLAUDE.md format)
-- 🦞 = OpenClaw compatible (SKILL.md format)  
+- 🤖 = Claude Code compatible (plugin, SKILL.md, CLAUDE.md or commands)
+- 🦞 = OpenClaw/ClawHub-native skill (SKILL.md format)  
 - 📦 = SkillMD cross-platform package
 - 🎖️ = Official/vendor-maintained
 - 💰 = Requires a paid service (no usable free tier)

@@ -9,7 +9,7 @@ Thank you for your interest in contributing! This list aims to catalog useful AI
 To be included in this list, a skill must meet **both** of these requirements:
 
 1. **Format** — Must be in one of these AI agent skill formats:
-   - `SKILL.md` (OpenClaw/ClawHub)
+   - `SKILL.md` (Agent Skills format, loaded by Claude Code and OpenClaw/ClawHub)
    - `CLAUDE.md` or `commands/*.md` (Claude Code)
    - SkillMD cross-platform packages
 
@@ -61,6 +61,16 @@ Each table row must include these fields:
 | **Platform icon** | ✅ | 🤖 Claude, 🦞 OpenClaw, 📦 SkillMD |
 | **Star count** | If GitHub | Use shields.io badge or number |
 | **Paid indicator** | If applicable | Add 💰 after name if requires paid service |
+
+### Choosing Icons and Markers
+
+Pick the platform icon from what the linked source actually ships, using the first rule that matches:
+
+1. 🤖 **Claude Code**: a Claude Code plugin (`.claude-plugin/plugin.json` or `marketplace.json`), `CLAUDE.md` / `commands/*.md`, or a standard `SKILL.md` (Claude Code loads these natively)
+2. 🦞 **OpenClaw**: ClawHub-hosted or OpenClaw-native skills
+3. 📦 **SkillMD**: SkillMD packages only
+
+Add 💰 only when the skill requires a specific paid product or plan with no usable free tier. A free plan, an open-source or self-hosted edition, or a free license counts as free; a time-limited trial does not. General cloud infrastructure cost (e.g. running an EKS cluster) doesn't count.
 
 ### Table Format
 
