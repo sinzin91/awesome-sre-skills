@@ -67,7 +67,8 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 **Other icons:**
 - 🎖️ Official (maintained by vendor)
 - ⭐ Popular (50+ GitHub stars at time of addition)
-- 💰 Requires a paid service (no usable free tier)
+- ⭐⭐ Very popular (1000+ GitHub stars at time of addition)
+- 💰 = Requires a paid service (no usable free tier)
 
 ---
 
@@ -133,7 +134,7 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 | [Mimir Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/mimir)                              | @julianobarbosa | Grafana Mimir for long-term Prometheus metrics storage                                    | 🤖       |
 | [Tempo Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/tempo)                              | @julianobarbosa | Grafana Tempo distributed tracing                                                         | 🤖       |
 | [Pyroscope Skill](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/pyroscope)                      | @julianobarbosa | Continuous profiling with Grafana Pyroscope                                               | 🤖       |
-| [Monitoring Expert](https://github.com/Jeffallan/claude-skills/tree/main/skills/monitoring-expert) ⭐⭐                   | @Jeffallan      | Build monitoring systems (Prometheus, Grafana, Datadog), incident detection               | 📦       |
+| [Monitoring Expert](https://github.com/Jeffallan/claude-skills/tree/main/skills/monitoring-expert) ⭐⭐                   | @Jeffallan      | Build monitoring systems (Prometheus, Grafana, Datadog), incident detection               | 🤖       |
 | [Production Monitoring](https://skillmd.ai/how-to-build/production-monitoring/)                                         | SkillMD         | Daily health checks, container status, error scanning                                     | 📦       |
 | [Uptime Kuma](https://clawhub.ai/msarheed/skills/uptime-kuma)                                                           | @msarheed       | Manage uptime monitors, heartbeats, pause/resume endpoints                                | 🦞       |
 | [Grafana Skills](https://github.com/grafana/skills) 🎖️ ⭐                                                               | @grafana        | 44 official skills for Grafana, PromQL, Loki, Tempo, Mimir, Pyroscope, k6 & on-call/IRM   | 🤖       |
@@ -227,14 +228,14 @@ Most skills in this list work with Claude Code. Look for the platform icon to ch
 
 ## Skill Registries
 
-| Registry                                                                           | Skills     | Notes                              |
-| ---------------------------------------------------------------------------------- | ---------- | ---------------------------------- |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐    | 170+       | ComposioHQ curated list            |
-| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐ | 5,300+     | VoltAgent curated list             |
-| [SkillsMP](https://skillsmp.com)                                                   | 3,000,000+ | Cross-platform marketplace         |
-| [ClawHub](https://clawhub.ai/)                                                     | 80,000+    | OpenClaw official registry         |
-| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                    | ~19        | Official reference implementations |
-| [agent-skills.md](https://agent-skills.md/)                                        | varies     | Skill discovery site               |
+| Registry                                                                           | Skills              | Notes                              |
+| ---------------------------------------------------------------------------------- | ------------------- | ---------------------------------- |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) ⭐⭐    | 170+                | ComposioHQ curated list            |
+| [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) ⭐⭐ | 5,300+              | VoltAgent curated list             |
+| [SkillsMP](https://skillsmp.com)                                                   | 3M+ (self-reported) | Cross-platform marketplace         |
+| [ClawHub](https://clawhub.ai/)                                                     | 80,000+             | OpenClaw official registry         |
+| [Anthropic Skills](https://github.com/anthropics/skills) 🎖️ ⭐⭐                    | ~19                 | Official reference implementations |
+| [agent-skills.md](https://agent-skills.md/)                                        | varies              | Skill discovery site               |
 
 ---
 
@@ -321,7 +322,7 @@ Skills work with Claude Pro, Max, Team, and Enterprise. Free tier users don't ha
 - 🦞 = OpenClaw compatible (SKILL.md format)  
 - 📦 = SkillMD cross-platform package
 - 🎖️ = Official/vendor-maintained
-- 💰 = Requires a paid service
+- 💰 = Requires a paid service (no usable free tier)
 
 </details>
 
