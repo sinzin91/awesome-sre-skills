@@ -9,9 +9,10 @@ Thank you for your interest in contributing! This list aims to catalog useful AI
 To be included in this list, a skill must meet **both** of these requirements:
 
 1. **Format** — Must be in one of these AI agent skill formats:
-   - `SKILL.md` (OpenClaw/ClawHub)
+   - `SKILL.md` (Agent Skills format, loaded by Claude Code and OpenClaw/ClawHub)
    - `CLAUDE.md` or `commands/*.md` (Claude Code)
-   - SkillMD cross-platform packages
+   - Claude Code plugins (`.claude-plugin/`) that bundle skills or commands
+   - SkillMD packages hosted on [skillmd.ai](https://skillmd.ai/)
 
 2. **Domain** — Must relate to SRE, observability, or reliability engineering:
    - **Monitoring** — Metrics queries, dashboards, alerting
@@ -62,6 +63,16 @@ Each table row must include these fields:
 | **Star count** | If GitHub | Use shields.io badge or number |
 | **Paid indicator** | If applicable | Add 💰 after name if requires paid service |
 
+### Choosing Icons and Markers
+
+The platform icon shows an entry's primary platform. Pick it from what the linked source actually ships, using the first rule that matches:
+
+1. 🦞 **OpenClaw**: hosted on ClawHub, or built for OpenClaw first, meaning the README or docs name OpenClaw as the primary target (e.g. ClawSec, a security suite for OpenClaw). This holds even if the source also ships a Claude Code plugin.
+2. 📦 **SkillMD**: packages hosted on [skillmd.ai](https://skillmd.ai/). This is not the same as the `SKILL.md` file format.
+3. 🤖 **Claude Code**: everything else Claude Code loads: a Claude Code plugin or plugin marketplace (`.claude-plugin/plugin.json` or `.claude-plugin/marketplace.json`), `CLAUDE.md` / `commands/*.md`, or a standard `SKILL.md` (Claude Code loads these natively)
+
+Add 💰 only when the skill requires a specific paid product or plan with no usable free tier. A free plan, an open-source or self-hosted edition, or a free license counts as free; a time-limited trial does not. General cloud infrastructure cost (e.g. running an EKS cluster) doesn't count.
+
 ### Table Format
 
 ```markdown
@@ -75,7 +86,7 @@ Each table row must include these fields:
 
 Before submitting, verify:
 
-- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, or SkillMD format
+- [ ] Skill is in `SKILL.md`, `CLAUDE.md`, a Claude Code plugin that bundles skills or commands, or SkillMD format
 - [ ] Topic relates to SRE/observability/monitoring/incident response
 - [ ] Repo has commits within the last 6 months
 - [ ] Documentation clearly explains how to use it
